@@ -1,4 +1,4 @@
-ul.horizontal-list {
+ul.vertical-list {
   display: flex;
   //justify-content: space-between;
   margin-top: 0em;
@@ -20,7 +20,7 @@ ul.horizontal-list {
 .card {
   padding: 1em;
   border: 1px var(--text) solid;
-  width: 100%;
+  width: 11em;
   height: auto;
   text-align: center;
   font-size: 1em;
