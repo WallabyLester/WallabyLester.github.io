@@ -2,5 +2,6 @@
 layout: post
 title: About
 ---
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
+
+![profile pic](logo.png)
 This is an example page!
