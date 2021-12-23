@@ -28,7 +28,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
   border-radius: 0.8em;
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
   transition: 0.3s;
 
   .header {
@@ -47,7 +47,7 @@ ul.horizontal-list {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
   }
 
 /* Responsive cards - one column layout on small screens */
