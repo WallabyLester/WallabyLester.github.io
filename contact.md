@@ -3,5 +3,4 @@ layout: post
 title: Contact
 ---
 
-Email: 
-Anything else..
+Email: andruliu2022@u.northwestern.edu
