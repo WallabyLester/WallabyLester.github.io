@@ -56,14 +56,13 @@ old_project_entries:
 
 footer_entries:
 
-  - title: linkedin
+  - title: LinkedIn
     url: https://www.linkedin.com/in/andru-liu
 
-  - title: github
+  - title: Github
     url: https://github.com/WallabyLester
 
-  - title: email
-    desc: andruliu2022@u.northwestern.edu
+  - title: andruliu2022@u.northwestern.edu
 
 
 misc_entries:
