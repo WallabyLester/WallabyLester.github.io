@@ -62,6 +62,9 @@ footer_entries:
   - title: github
     url: https://github.com/WallabyLester
 
+  - title: email
+    desc: andruliu2022@u.northwestern.edu
+
 
 misc_entries:
   - title: this is an example vertical list
