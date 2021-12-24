@@ -8,6 +8,9 @@ navbar_entries:
   - title: Contact
     url: contact
 
+  - title: Resume
+    url: resume
+
 project_entries:
   - title: Project 1
     url: overview-post
