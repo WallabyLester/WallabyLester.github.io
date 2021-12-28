@@ -1,8 +1,8 @@
 title: Andru Liu
 author: Andru Liu
 url: https://wallabylester.github.io/ # root address of the site
-# description: > # description of the site (multiple lines allowed)
-#   Robotic Manipulation, Planning, Controls, Mobile Robotics, Perception.
+description: > # description of the site (multiple lines allowed)
+  Robotic Manipulation, Planning, Controls, Mobile Robotics, Perception.
 
 permalink: /:slug.html
 
