@@ -10,26 +10,30 @@ The goal of this project was to command a Franka Emika Panda arm to pour pancake
 
 ## Actions
 All of the main functionalities of the project are implemented through a single ROS service `make_pancakes`.
+- [Pour](#pour)
+- [Bubble Detection](#bubble-detection)
+- [Flip](#flip)
+- [Lift](#lift)
 
-### Pour
+### [Pour](#pour)
 
 ![Pour](/files/flip-it/pour.gif)
 
 The first step is pouring of batter onto the heated griddle. This part of the service will command the robot to grab the bottle containing the mixed pancake batter, flip the bottle above the griddle, squeeze the bottle, and place the bottle back at its starting location.
 
-### Bubble Detection
+### [Bubble Detection](#bubble-detection)
 
 ![Bubble Detection](/files/flip-it/bubble_detection.gif)
 
 The robot will then wait for a signal to flip the pancake. Flip time is determined by counting the number of contours on the pancake and their rate of change. Once the number of bubbles is no longer increasing, the pancake is ready to be flipped. 
 
-### Flip
+### [Flip](#flip)
 
 ![Flip](/files/flip-it/flip.gif)
 
 Next, the robot grabs the spatula, maneuvers it under the pancake, flips the pancake back onto the griddle, and moves the robot to its home position.
 
-### Lift
+### [Lift](#lift)
 
 ![Lift](/files/flip-it/lift.gif)
 
