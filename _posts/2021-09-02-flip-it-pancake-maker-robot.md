@@ -1,102 +1,12 @@
 ---
 layout: post
 ---
-
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
-
-# Sample heading 1
-## Sample heading 2
-### Sample heading 3
-#### Sample heading 4
-##### Sample heading 5
-###### Sample heading 6
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
-
-## Lists
-
-Unordered:
-
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
-
-Ordered:
-
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
-
-## Blockquote
-
-The following is a blockquote:
-
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
-
-## Thematic breaks (<hr>)
-
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
-
----
-{: data-content="hr with text"}
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
-
----
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
-
-## Code
-
-Now some code:
-
-```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
-```
-
-And here is some `inline code`!
-
-## Tables
-
-Now a table:
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
-
----
-{: data-content="footnotes"}
-
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
-
-
-
-
-
-
-# Team FLIP IT Final Project: Pancake Manipulator Arm
-This repository contains software developed for ME 495 Embedded Systems in Robotics course. Written and maintained by James Avtges, Anna Garverick, Jackson Levine, Andru Liu, and Sarah Ziselman. 
-
-![team](pancake_pkg/img/team.jpg)
+ROS, MoveIt!, OpenCV, Python
 
 ## Overview
 The objective of this project is to command a Franka Emika Panda arm to pour pre-mixed pancake batter onto a griddle, flip the pancake using a modified spatula, and lift the pancake off the griddle onto a plate. This process is done entirely autonomously utilizing open-source computer vision and motion planning software packages.
 
-![flip1](/files/flip-1.gif)
-**_NOTE:_** This video is x2.5 sped up
+![flip1](/files/flip-it/flip-1.gif)
 
 The `pancake_pkg` package contains the following nodes:
 * `pancake_control` - This node is responsible for implementing the `MoveIt` motion planner on the Franka Emika Panda robot. It sends a series of commands to allow for path planning and execution in order to carry out the robot's desired functionality.
@@ -188,25 +98,25 @@ Each of the three main functionalities of the project are implemented through a 
 
 ### Pour
 
-![Pour](/files/pour.gif)
+![Pour](/files/flip-it/pour.gif)
 
 The first step is to pour batter onto the heated griddle. This part of the service will command the robot to grab the food storage bottle containing the mixed pancake batter, flip the bottle spout-side down above the griddle, squeeze the bottle for twelve seconds allowing for pancake batter to be released, then flip the bottle spout-side up and place it back at its starting location.
 
 ### Bubble Detection
 
-![Bubble Detection](/files/bubble_detection.gif)
+![Bubble Detection](/files/flip-it/bubble_detection.gif)
 
 The robot will then wait for a signal to flip the pancake. Flip time is determined by computer vision counting the number of contours on the pancake and their rate of change. Once the number of bubbles are no longer increasing, the pancake is ready to be flipped. 
 
 ### Flip
 
-![Flip](/files/flip.gif)
+![Flip](/files/flip-it/flip.gif)
 
 This part of the service will command the robot to grab the modified heat-proof spatula, maneuver it to get the pancake situated on the spatula using a location determined by computer vision, flip the pancake back onto the griddle, then move the robot to its home posiiton.
 
 ### Lift
 
-![Lift](/files/lift.gif)
+![Lift](/files/flip-it/lift.gif)
 
 A 20 second wait time ensures the second side of the pancake is perfectly cooked and ready to be handed off to the hungry user. The last part of the service will command the robot to maneuver the modified heat-proof spatula to get the pancake situated on the spatula using a position determined by computer vision, then lift it off of the griddle and flip it onto a user's plate.
 
@@ -219,8 +129,7 @@ rosservice call /make_pancakes
 ```
 Upon successful completion of all the services, the user will have delicious, robot-made pancakes courtesy of the Franka Emika Panda robot and team FLIP IT. 
 
-![flip-3](/files/flip-3.gif)
-**_NOTE:_** This video is x2.5 sped up
+![flip-3](/files/flip-it/flip-3.gif)
 
 ## Testing
 This package also contains testing applications to ensure that ROS implementation of the position of objects and the Python package pose calculations are correct. 
@@ -235,7 +144,4 @@ catkin_make run_tests_pancake_pkg_nosetests_test
 For future works our team would be interested in further developing the autonomous functionality of the robot. This could include training the system's vision to be more precise, obtaining more information about the environment from the RealSense camera, improving the trajectory planning and execution of the robot's motion planner, etc. Our team would also like to explore increasing the capability of the robot by developing software to command it to pick up other objects (like whisks, plates, etc.) and perform other tasks like mixing batter, adding non-liquid ingredients, and creating different pancake shapes. Lastly, a more complicated development would be to train the robot to flip a pancake with just a fry pan and without the use of a spatula. This would require a more intensive approach that may include machine learning and a deeper understanding of the system's dynamics.
 
 
-![pancake making](/files/pancake_making.gif)
-**_NOTE:_** This video is x2.5 sped up
-
-*Chocolate chips must be placed in the center of the pancake while the batter is still pouring to avoid disrupting the computer vision!*
+![pancake making](/files/flip-it/pancake_making.gif)
