@@ -15,7 +15,6 @@ project_entries:
   - title: Flip It Pancake Maker Robot
     url: overview-post
     desc: ROS, MoveIt Motion Planning, Computer Vision
-
     Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
     image: ./gifs/pancake_making.gif
 
