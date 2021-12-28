@@ -24,22 +24,8 @@ project_entries:
     desc: Projects are shown in card layout
 
   - title: Project 3
-    url: language-tests
+    url: post-example-with-headings-and-toc
     desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
   - title: Soopr
@@ -68,7 +54,6 @@ footer_entries:
     url: https://github.com/WallabyLester
 
   - title: andruliu2022@u.northwestern.edu
-
 
 misc_entries:
   - title: this is an example vertical list
