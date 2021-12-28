@@ -16,7 +16,7 @@ project_entries:
     url: overview-post
     desc: |
       ROS, MoveIt Motion Planning, Computer Vision 
-      
+      \n
       Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
     image: ./gifs/pancake_making.gif
 
