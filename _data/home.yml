@@ -3,7 +3,7 @@ navbar_entries:
     url: about
 
   - title: Projects
-    url: blog
+    url: projects
 
   - title: Contact
     url: contact
