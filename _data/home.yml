@@ -20,12 +20,18 @@ project_entries:
     image: ./files/flip-it/pancake_making.gif
 
   - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+    url: flip-it-pancake-maker-robot
+    desc: >
+        ROS, MoveIt Motion Planning, Computer Vision</br> 
+        Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
+    image: ./files/flip-it/pancake_making.gif
 
   - title: Project 3
-    url: post-example-with-headings-and-toc
-    desc: You can control visibility from _config.yml file
+    url: flip-it-pancake-maker-robot
+    desc: >
+        ROS, MoveIt Motion Planning, Computer Vision</br> 
+        Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
+    image: ./files/flip-it/pancake_making.gif
 
 old_project_entries:
   - title: Soopr
