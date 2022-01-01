@@ -23,7 +23,7 @@ project_entries:
     url: robotic-helping-hand
     desc: >
         ROS, MoveIt Motion Planning, RVIZ, Gazebo</br> 
-        Programmed and controlled a px100 robot arm to pickup an airpod case without hitting a collision object in real-life and simulation. 
+        Programmed and controlled a px100 robot arm to pickup an Airpod case without hitting a collision object in real-life and simulation. 
     image: ./files/helping-hand/px100_actual.gif
 
   - title: Project 3
