@@ -15,21 +15,21 @@ project_entries:
   - title: Flip It Pancake Maker Robot
     url: flip-it-pancake-maker-robot
     desc: >
-        ROS, MoveIt Motion Planning, Computer Vision</br> 
+        ROS, MoveIt!, Computer Vision</br> 
         Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
     image: ./files/flip-it/pancake_making.gif
 
   - title: Robotic Helping Hand
     url: robotic-helping-hand
     desc: >
-        ROS, MoveIt Motion Planning, RVIZ, Gazebo</br> 
+        ROS, MoveIt!, RVIZ, Gazebo, rostest</br> 
         Programmed and controlled a px100 robot arm to pickup an Airpod case without hitting a collision object in real-life and simulation. 
     image: ./files/helping-hand/px100_actual.gif
 
   - title: Project 3
     url: flip-it-pancake-maker-robot
     desc: >
-        ROS, MoveIt Motion Planning, Computer Vision</br> 
+        ROS, MoveIt!, Computer Vision</br> 
         Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
     image: ./files/flip-it/pancake_making.gif
 
