@@ -36,7 +36,7 @@ ${y}_d$ - height of the dice
 $$Lagrangian = KE - PE$$
 
 $$
-\frac{d}{dt}\dot{(\frac{{\partial}L}{{\partial}q})} - \frac{{\partial}L}{{\partial}q} = F
+\frac{d}{dt}\dot{(\frac{\partial L}{\partial q})} - \frac{\partial L}{\partial q} = F
 $$
 $q$ - matrix of configuration variables</br>
 $F$ - matrix of external forces</br>
@@ -48,7 +48,7 @@ The system has a total of 16 impact constraints: 4 for each wall of the cup impa
 ### Impact Update
 Momentum: 
 $$
-{\dot{\frac{{\partial}L}{{\partial}q}}}^+ - {\dot{\frac{{\partial}L}{{\partial}q}}}^- = \lambda\frac{{\partial}\varphi}{{\partial}q}
+{\dot{\frac{\partial L}{\partial q}}}^+ - {\dot{\frac{\partial L}{\partial q}}}^- = \lambda\frac{\partial \varphi}{\partial q}
 $$
 $\varphi$ - impact constraints</br>
 $-$ - the configuration variables before impact</br>
@@ -56,6 +56,6 @@ $+$ - the configurations variables after impact
 
 Energy:
 $$
-H = (\dot{\frac{{\partial}L}{{\partial}q}})(\frac{dq}{dt}) - L
+H = (\dot{\frac{\partial L}{\partial q}})(\frac{dq}{dt}) - L
 $$
 $H$ - Hamiltonian
