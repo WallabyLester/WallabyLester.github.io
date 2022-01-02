@@ -19,11 +19,14 @@ Using transformation matrices, the position and orientation of all of the frames
 
 ### Equations of Motion
 With this, the Euler-Lagrange Equations are solved for:
+
 $$KE = \frac{1}{2} * {V}^TIV$$
+
 $V$ - the velocity of the body\
 $I$ - the combined mass and inertia matrix
 
 $$PE = g({m}_c{y}_c + {m}_d{y}_d)$$
+
 $g$ - gravity\
 ${m}_c$ - mass of the cup\
 ${m}_d$ - mass of the dice\
@@ -33,6 +36,7 @@ ${y}_d$ - height of the dice
 $$Lagrangian = KE - PE$$
 
 $$\frac{d}{dt}\dot{(\frac{\partial L}{\partial q})} - \frac{\partial L}{\partial q} = F$$
+
 $q$ - matrix of configuration variables\
 $F$ - matrix of external forces\
 $L$ - Lagrangian previously found
@@ -42,11 +46,15 @@ The system has a total of 16 impact constraints: 4 for each wall of the cup impa
 
 ### Impact Update
 Momentum: 
+
 $${\dot{\frac{\partial L}{\partial q}}}^+ - {\dot{\frac{\partial L}{\partial q}}}^- = \lambda\frac{\partial \varphi}{\partial q}$$
+
 $\varphi$ - impact constraints\
 $-$ - the configuration variables before impact\
 $+$ - the configurations variables after impact
 
 Energy:
+
 $$H = (\dot{\frac{\partial L}{\partial q}})(\frac{dq}{dt}) - L$$
+
 $H$ - Hamiltonian
