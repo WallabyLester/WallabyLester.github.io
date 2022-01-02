@@ -1,5 +1,6 @@
 ---
 layout: post
+usemathjax: true
 ---
 Dynamics, Simulation, Lagrangian Mechanics, Python, SymPy, Jupyter Notebook
 
