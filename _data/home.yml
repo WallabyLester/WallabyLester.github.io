@@ -23,15 +23,15 @@ project_entries:
     url: robotic-helping-hand
     desc: >
         ROS, MoveIt!, RVIZ, Gazebo, rostest</br> 
-        Programmed and controlled a px100 robot arm to pickup an Airpod case without hitting a collision object in real-life and simulation. 
+        Programmed and controlled a px100 robot arm to pick up an Airpod case without hitting a collision object in real-life and simulation. 
     image: ./files/helping-hand/px100_actual.gif
 
-  - title: Project 3
-    url: flip-it-pancake-maker-robot
+  - title: Dice in a Cup Dynamics From Scratch
+    url: dice-in-a-cup
     desc: >
-        ROS, MoveIt!, Computer Vision</br> 
-        Programmed and controlled a Franka Emika Panda robot arm to cook and flip pancakes. 
-    image: ./files/flip-it/pancake_making.gif
+        Dynamics, Simulation, SymPy, Jupyter Notebook</br> 
+        Modeled Lagrangian dynamics of a 6 DOF system; a dice colliding inside of a spinning cup.
+    image: ./files/dice/dice_in_cup.gif
 
 old_project_entries:
   - title: Soopr

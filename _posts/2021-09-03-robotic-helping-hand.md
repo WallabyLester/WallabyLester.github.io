@@ -4,7 +4,7 @@ layout: post
 ROS, MoveIt!, RVIZ, Gazebo, Python, Rostest
 
 ## Overview
-The goal of this project was to command a Interbotix px100 robot arm to pick up a target object while avoiding collisions with any environmental elements. This task was achieved using the MoveIt Python API in real-life and simulation in RVIZ and Gazebo. The px100 was used to pick up an Apple Airpod case while avoiding an Intel RealSense box and place the case on top of the collision object. With the integration of RVIZ and Gazebo the robot can also be visualized in either software to see the path it would take. RVIZ shows the collision objects in the environment and the path while Gazebo simulates the entire pick and place task. See the code in my [GitHub repository](https://github.com/WallabyLester/Arm_Motion_Planning_and_Differential_Drive_Robot/tree/master/arm_move).
+The goal of this project was to command a Interbotix px100 robot arm to pick up a target object while avoiding collisions with any environmental elements. This task was achieved using the MoveIt Python API in real-life and simulation in RVIZ and Gazebo. The px100 was used to pick up an Apple Airpod case while avoiding an Intel RealSense box and place the case on top of the collision object. With the integration of RVIZ and Gazebo, the robot can also be visualized in either software to see the path it would take. RVIZ shows the collision objects in the environment and the path while Gazebo simulates the entire pick and place task. See the code in my [GitHub repository](https://github.com/WallabyLester/Arm_Motion_Planning_and_Differential_Drive_Robot/tree/master/arm_move).
 
 ### Real-Life
 ![px100_actual](/files/helping-hand/px100_actual.gif "px100_actual.gif")
