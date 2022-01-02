@@ -9,7 +9,7 @@ The goal of this project was to use Lagrangian dynamics to model a complex syste
 ![dice in cup](/files/dice/dice_in_cup.gif "dice_in_cup.gif")
 
 ## System Configuration
-The 6 degrees of freedom in the system consist of the x and y coordinates and angle ($\theta$) of the dice and cup. 
+The 6 degrees of freedom in the system consist of the x and y coordinates and angle ($\theta$) \\\theta of the dice and cup. 
 
 ### Reference Frames
 ![frames](/files/dice/frames.png "frames.png")
