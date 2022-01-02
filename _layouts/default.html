@@ -8,9 +8,8 @@
         {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}
         {% endif %}
-        {% if page.usemathjax %}
-            <script type="text/javascript" async
-            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+        {% if page.usemathjax == true -%}
+            <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
             </script>
         {% end if %}
         <div class="credits">
