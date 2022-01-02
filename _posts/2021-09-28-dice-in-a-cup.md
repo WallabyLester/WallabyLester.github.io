@@ -6,7 +6,7 @@ Dynamics, Simulation, Lagrangian Mechanics, Python, SymPy, Jupyter Notebook
 
 ## Overview
 The goal of this project was to use Lagrangian dynamics to model a complex system. The system in this project is a 6 DOF system of a dice inside of a cup; much like many common playing games with dice being shaken inside of a cup. The cup in this instance is rotating in order to show multiple impacts occurring. See the code in my [GitHub repository](https://github.com/WallabyLester/Dice_in_a_cup).
-
+    
 ![dice in cup](/files/dice/dice_in_cup.gif "dice_in_cup.gif")
 
 ## System Configuration
