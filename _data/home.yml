@@ -31,7 +31,7 @@ project_entries:
     desc: >
         Dynamics, Simulation, SymPy, Jupyter Notebook</br> 
         Modeled Lagrangian dynamics of a 6 DOF system; a dice colliding inside of a spinning cup.
-    image: ./files/dice/dice_in_cup.gif
+    image: ./files/dice/home_dice_in_cup.gif
 
 old_project_entries:
   - title: Soopr
