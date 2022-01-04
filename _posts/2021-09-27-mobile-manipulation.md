@@ -5,7 +5,7 @@ mathjax: true
 Manipulation, Motion Planning, Trajectory Generation, Omnidirectional Robot
 
 ## Overview
-The goal of this project was to perform mobile manipulation using Python code which: generates a trajectory, calculates odometry, and performs feedback control with a PI controller. The code outputs a csv file for use with CoppeliaSim in order to simulate the results. See the code in my [GitHub repository]().
+The goal of this project was to perform mobile manipulation using Python code which: generates a trajectory, calculates odometry, and performs feedback control with a PI controller. The code outputs a csv file for use with CoppeliaSim in order to simulate the results. See the code in my [GitHub repository](https://github.com/WallabyLester/Mobile_Manipulation).
 
 ![mobile manipulation](/files/mobile-manipulation/mobile-manipulation.gif)
 
