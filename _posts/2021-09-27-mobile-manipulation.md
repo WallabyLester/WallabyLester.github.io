@@ -27,13 +27,13 @@ The robot kinematics are attained using NextState, which takes the current confi
 ### [Feedback Control](#feedback-control)
 The last step is to implement feedforward plus feedback control law:
 
-$$V(t) = [A{d}_{{X}^{-1}-{X}_d}]{V}_d(t) + {K}_p{X}_{err} + Ki{\int\limits_0^t}{X}_{err}(t)dt$$
+$$V(t) = [Ad_{X^{-1}-X_d}]V_d(t) + K_pX_{err} + Ki{\int\limits_0^t}X_{err}(t)dt$$
 
 $V$ - end-effector twist\
-${X}_{err}$ - error between the current end-effector configuration and the reference trajectory\
-${K}_p$ - the proportional gain
-${K}_i$ - the integral gain
+$X_{err}$ - error between the current end-effector configuration and the reference trajectory\
+$K_{p}$ - the proportional gain
+$K_{i}$ - the integral gain
 
 The pseudoinverse of the jacobian is then used to calculate the wheel and arm joint speeds. 
 
-$$\left[ {u \atop {\dot{\theta}}} \right] = {{J}^{\dagger}}_e(\theta)V$$
+$$\left[ {u \atop {\dot{\theta}}} \right] = {J^{\dagger}}_e(\theta)V$$
