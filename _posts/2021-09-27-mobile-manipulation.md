@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 ---
 Manipulation, Motion Planning, Trajectory Generation, Omnidirectional Robot
 
