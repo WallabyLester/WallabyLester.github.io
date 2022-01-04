@@ -32,9 +32,15 @@ $$V(t) = [Ad_{X^{-1}-X_d}]V_d(t) + K_pX_{err} + Ki{\int\limits_0^t}X_{err}(t)dt$
 
 $V$ - end-effector twist\
 $X_{err}$ - error between the current end-effector configuration and the reference trajectory\
-$K_{p}$ - the proportional gain
+$K_{p}$ - the proportional gain\
 $K_{i}$ - the integral gain
 
 The pseudoinverse of the jacobian is then used to calculate the wheel and arm joint speeds. 
 
 $$\left[ {u \atop {\dot{\theta}}} \right] = {J^{\dagger}}_e(\theta)V$$
+
+### Example of Badly Tuned Controller
+![overshoot](/files/mobile-manipulation/overshoot.gif)
+
+### Example of Different Cube Position
+![new task](/files/mobile-manipulation/new-task.gif)
