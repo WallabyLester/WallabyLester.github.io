@@ -33,6 +33,13 @@ project_entries:
         Modeled Lagrangian dynamics of a 6 DOF system; a dice colliding inside of a spinning cup.
     image: ./files/dice/home_dice_in_cup.gif
 
+  - title: Mobile Manipulation
+    url: mobile-manipulation
+    desc: >
+        Manipulation, Motion Planning, Trajectory Generation</br> 
+        Programmed youBot to pick and place a block in the simulation software CoppeliaSim.
+    image: ./files/mobile-manipulation/mobile-manipulation.gif
+
 old_project_entries:
   - title: Soopr
     url: https://www.soopr.co
