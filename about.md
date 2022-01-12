@@ -5,9 +5,9 @@ title: About
 
 <p>Experienced engineer with a demonstrated history of working with medical devices.
 <br>
-Skilled in R&D, manufacturing, CAD design, programming, and data analysis.
-<br>
-See my Github for more projects - [GitHub repository](https://github.com/WallabyLester).</p>
+Skilled in R&D, manufacturing, CAD design, programming, and data analysis.</p>
+
+See my Github for more projects - [GitHub repository](https://github.com/WallabyLester)
 
 ### Education
 <p><strong>MS in Robotics</strong> - <em>Northwestern University, IL | 2022</em>
