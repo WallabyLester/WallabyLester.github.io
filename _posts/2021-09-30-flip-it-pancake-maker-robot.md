@@ -7,7 +7,7 @@ ROS, MoveIt!, OpenCV, Python
 The goal of this project was to command a Franka Emika Panda arm to pour pancake batter onto a griddle, flip the pancake, and lift the pancake off the griddle. This process was done completely autonomously; utilizing open-source computer vision and motion planning software packages in a team of five: James Avtges, Anna Garverick, Jackson Levine, Sarah Ziselman, and myself. I personally focused on flipping the pancake and working on the manipulation node, while assisting with finding the object locations and computer vision. Manipulation involved calculating trajectories and cartesian paths for use with inverse kinematics to achieve reliable, effective movement. Single joint control was applied with forward kinematics, enabling precise control of the arm for difficult tasks, such as flipping the pancake. Utilizing a RealSense d435i and 3D Vision, we used point clouds, transformations, and AprilTags to find the pose of objects. See the code in my [GitHub repository](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
 
 ![pancake making](/files/flip-it/pancake_making.gif)
-NOTE: This video is sped up 2.5x
+<center>NOTE: This video is sped up 2.5x</center>
 
 ## Actions
 All of the main functionalities of the project are implemented through a single ROS service `make_pancakes`.
