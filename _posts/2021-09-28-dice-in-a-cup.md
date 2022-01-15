@@ -58,3 +58,5 @@ Energy:
 $$H = (\dot{\frac{\partial L}{\partial q}})(\frac{dq}{dt}) - L$$
 
 $H$ - Hamiltonian
+
+For the full code see my [GitHub repository](https://github.com/WallabyLester/Dice_in_a_cup).

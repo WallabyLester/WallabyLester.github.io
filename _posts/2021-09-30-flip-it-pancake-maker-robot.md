@@ -38,3 +38,5 @@ Next, the robot grabs the spatula, maneuvers it under the pancake, flips the pan
 ![Lift](/files/flip-it/lift.gif)
 
 A 20 second wait time is used to ensure that the other side of the pancake is perfectly cooked. Then the robot uses the spatula to get under the pancake and lift it off of the griddle; flipping it onto the user's plate.
+
+For the full code see my [GitHub repository](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
