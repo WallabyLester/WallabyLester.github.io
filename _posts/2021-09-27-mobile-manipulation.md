@@ -46,3 +46,5 @@ $$\left[ {u \atop {\dot{\theta}}} \right] = {J^{\dagger}}_e(\theta)V$$
 ![new task](/files/mobile-manipulation/new-task.gif)
 
 For the full program see my [GitHub repository](https://github.com/WallabyLester/Mobile_Manipulation).
+
+Return to [Dice in a Cup](https://wallabylester.github.io/dice-in-a-cup).

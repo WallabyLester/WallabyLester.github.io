@@ -61,4 +61,4 @@ $H$ - Hamiltonian
 
 For the full code see my [GitHub repository](https://github.com/WallabyLester/Dice_in_a_cup).
 
-See my next project [Mobile Manipulation](https://wallabylester.github.io/mobile-manipulation).
+See my next project [Mobile Manipulation](https://wallabylester.github.io/mobile-manipulation) or return to [Robotic Helping Hand](https://wallabylester.github.io/robotic-helping-hand).

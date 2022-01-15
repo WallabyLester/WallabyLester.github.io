@@ -24,4 +24,4 @@ This project features two modes of running:
 
 For the full code see my [GitHub repository](https://github.com/WallabyLester/Arm_Motion_Planning_and_Differential_Drive_Robot/tree/master/arm_move).
 
-See my next project [Dice in a Cup](https://wallabylester.github.io/dice-in-a-cup).
+See my next project [Dice in a Cup](https://wallabylester.github.io/dice-in-a-cup) or return to [Pancake Maker Robot](https://wallabylester.github.io/flip-it-pancake-maker-robot).
