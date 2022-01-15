@@ -4,7 +4,7 @@ layout: post
 ROS, MoveIt!, OpenCV, Python
 
 ## Overview
-The goal of this project was to command a Franka Emika Panda arm to pour pancake batter onto a griddle, flip the pancake, and lift the pancake off the griddle. This process was done completely autonomously; utilizing open-source computer vision and motion planning software packages. I personally focused on flipping the pancake and working on the manipulation node, while assisting with finding the object locations and computer vision. Manipulation involved calculating trajectories and cartesian paths for use with inverse kinematics to achieve reliable, effective movement. Single joint control was applied with forward kinematics, enabling precise control of the arm for difficult tasks, such as flipping the pancake. Utilizing a RealSense d435i and 3D Vision, we used point clouds, transformations, and AprilTags to find the pose of objects. See the code in my [GitHub repository](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
+The goal of this project was to command a Franka Emika Panda arm to pour pancake batter onto a griddle, flip the pancake, and lift the pancake off the griddle. This process was done completely autonomously; utilizing open-source computer vision and motion planning software packages in a team of five: James Avtges, Anna Garverick, Jackson Levine, Sarah Ziselman, and myself. I personally focused on flipping the pancake and working on the manipulation node, while assisting with finding the object locations and computer vision. Manipulation involved calculating trajectories and cartesian paths for use with inverse kinematics to achieve reliable, effective movement. Single joint control was applied with forward kinematics, enabling precise control of the arm for difficult tasks, such as flipping the pancake. Utilizing a RealSense d435i and 3D Vision, we used point clouds, transformations, and AprilTags to find the pose of objects. See the code in my [GitHub repository](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
 
 ![pancake making](/files/flip-it/pancake_making.gif)
 
@@ -40,3 +40,5 @@ Next, the robot grabs the spatula, maneuvers it under the pancake, flips the pan
 A 20 second wait time is used to ensure that the other side of the pancake is perfectly cooked. Then the robot uses the spatula to get under the pancake and lift it off of the griddle; flipping it onto the user's plate.
 
 For the full code see my [GitHub repository](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
+
+See my next project [Robotic Helping Hand](https://wallabylester.github.io/robotic-helping-hand).
