@@ -37,6 +37,12 @@ li { margin: 0.4em 0; }
   padding: 4em 2em;
 }
 
+@media screen and (max-width: 600px) {
+    .w {
+        max-width: 100%;
+    }
+  }
+
 table, th, td {
   width: 100%;
   border: thin solid black;
