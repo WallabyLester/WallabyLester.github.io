@@ -30,6 +30,7 @@ ul.horizontal-list {
   border-radius: 0.8em;
   box-shadow: 0 4px 8px 0 rgba(105, 104, 104, 0.623);
   transition: 0.3s;
+  
 
   .header {
     color: var(--links);
@@ -60,5 +61,8 @@ ul.horizontal-list {
     a, .header {
       font-size: 1em;
     }
+  }
+  .card img {
+    width: 100%;
   }
 }
