@@ -50,15 +50,15 @@ ul.horizontal-list {
     box-shadow: 0 8px 16px 0 rgba(105, 104, 104, 0.623);
   }
 
-/* Responsive cards - one column layout on small screens */
-@media screen and (max-width: 600px) {
-  ul.horizontal-list li.card {
-    width: 100%;
-    display: block;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    a, .header {
-      font-size: 1em;
-    }
-  }
-}
+// /* Responsive cards - one column layout on small screens */
+// @media screen and (max-width: 600px) {
+//   ul.horizontal-list li.card {
+//     width: 100%;
+//     display: block;
+//     margin-bottom: 1em;
+//     margin-left: 1em;
+//     a, .header {
+//       font-size: 1em;
+//     }
+//   }
+// }
