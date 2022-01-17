@@ -5,7 +5,7 @@
       <a href="{{ item.url }}">
         <!-- <img src="{{ item.image }}" alt="Logo" style="width:60%" style="height:60%"> -->
 
-        {% if ($(window).screen.width() < 1000) %}
+        {% if (window.innerWidth < 1000) %}
             <img src="{{ item.image }}" alt="Logo" style="width:100%" style="height:100%">
         {% else %}
             <img src="{{ item.image }}" alt="Logo" style="width:60%" style="height:60%">
