@@ -62,7 +62,10 @@ ul.horizontal-list {
       font-size: 1em;
     }
   }
-  ul.horizontal-list li.card img {
-    width: 100%;
-  }
+}
+
+@media screen and (max-width: 600px) {
+    ul.horizontal-list li.card img {
+        width: 100%;
+      }
 }
