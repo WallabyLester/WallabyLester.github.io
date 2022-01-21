@@ -19,6 +19,6 @@ Robotic Manipulation, Planning, Controls, Mobile Robotics, Perception | GPA: 4.0
 Specialization in Biomechanics and Biomaterials</p>
 
 ### Contact Me
-Email: andruliu2022@u.northwestern.edu
+Email: <a href = "mailto: andruliu2022@u.northwestern.edu">andruliu2022@u.northwestern.edu</a>
 
 LinkedIn: [Andru Liu](https://www.linkedin.com/in/andru-liu)
