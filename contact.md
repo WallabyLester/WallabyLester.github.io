@@ -4,7 +4,7 @@ title: Contact
 ---
 
 <!-- Email: andruliu2022@u.northwestern.edu -->
-<a href = "mailto: andruliu2022@u.northwestern.edu">Email: andruliu2022@u.northwestern.edu</a>
+Email: <a href = "mailto: andruliu2022@u.northwestern.edu">andruliu2022@u.northwestern.edu</a>
 
 LinkedIn: [Andru Liu](https://www.linkedin.com/in/andru-liu)
 
