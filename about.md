@@ -17,3 +17,8 @@ Robotic Manipulation, Planning, Controls, Mobile Robotics, Perception | GPA: 4.0
 <p><strong>BS in Biomedical Engineering</strong> - <em>Stony Brook University, NY | 2019</em>
 <br>
 Specialization in Biomechanics and Biomaterials</p>
+
+### Contact Me
+Email: andruliu2022@u.northwestern.edu
+
+LinkedIn: [Andru Liu](https://www.linkedin.com/in/andru-liu)
