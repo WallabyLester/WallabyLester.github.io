@@ -89,8 +89,8 @@ ul.horizontal-list {
 
 @media screen and (max-width: 600px) {
     div.resume-container iframe {
-        width: 181.82%;
-        height: 80%;
+        width: 181.82% !important;
+        height: 80% !important;
         -webkit-transform: scale(0.55);
         transform: scale(0.55);
         -webkit-transform-origin: 0 0;
