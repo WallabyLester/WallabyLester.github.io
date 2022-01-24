@@ -82,14 +82,13 @@ ul.horizontal-list {
         position: relative;
         padding-bottom: 75%;
         height: 0;
-        width: 2000px;
         overflow:hidden;
       }
     div.resume-container iframe {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 500px;
         height: 100%;
     }
 }
