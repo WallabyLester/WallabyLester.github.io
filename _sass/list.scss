@@ -86,10 +86,10 @@ ul.horizontal-list {
         overflow:hidden;
       }
     div.resume-container iframe {
-        width: 200% !important;
-        height: 100% !important;
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
+        width: 181.82% !important;
+        // height: 100% !important;
+        -webkit-transform: scaleX(0.55);
+        transform: scaleX(0.55);
         -webkit-transform-origin: 0 0;
         transform-origin: 0 0;
     }
