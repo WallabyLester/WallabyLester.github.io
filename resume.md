@@ -23,7 +23,7 @@ title: Resume
 
 <div class = "resume-container">
     <iframe src="./files/Online_Resume.pdf" title="Resume" >
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     </iframe>
 </div>
 
