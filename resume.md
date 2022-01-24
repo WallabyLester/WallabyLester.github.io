@@ -22,6 +22,8 @@ title: Resume
 </html> -->
 
 <div class = "resume-container">
-    <iframe src="./files/Online_Resume.pdf" title="Resume" width="100%" height="1150px" >
+    <iframe src="./files/Online_Resume.pdf" title="Resume" >
     </iframe>
 </div>
+
+<!-- width="100%" height="1150px"  -->
