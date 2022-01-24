@@ -76,3 +76,19 @@ ul.horizontal-list {
         height: auto;
       }
 }
+
+@media screen and (max-width: 600px) {
+    div.resume-container {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow:hidden;
+      }
+    div.resume-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
