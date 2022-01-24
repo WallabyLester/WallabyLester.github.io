@@ -85,6 +85,9 @@ ul.horizontal-list {
         height: 1000px;
         overflow:hidden;
       }
+}
+
+@media screen and (max-width: 600px) {
     div.resume-container iframe {
         width: 181.82% !important;
         height: 80% !important;
