@@ -13,7 +13,7 @@ navbar_entries:
 
 project_entries:
   - title: EMG Controlled Hand Exoskeleton
-    url: EMG-controlled-hand-exoskeleton
+    url: emg-controlled-hand-exoskeleton
     desc: >
         Embedded Control, Machine Learning, EMG</br> 
         Designed a hand exoskeleton with machine learning classification to aid in playing the piano. 
