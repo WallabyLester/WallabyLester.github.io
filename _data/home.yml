@@ -12,6 +12,13 @@ navbar_entries:
     url: resume
 
 project_entries:
+  - title: EMG Controlled Hand Exoskeleton
+    url: EMG-controlled-hand-exoskeleton
+    desc: >
+        Embedded Control, Machine Learning, EMG</br> 
+        Designed a hand exoskeleton with machine learning classification to aid in playing the piano. 
+    image: ./files/EMG-controlled-hand/piano.gif
+  
   - title: Flip It Pancake Maker Robot
     url: flip-it-pancake-maker-robot
     desc: >
