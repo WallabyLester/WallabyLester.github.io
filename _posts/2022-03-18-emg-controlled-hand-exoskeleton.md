@@ -35,7 +35,7 @@ Prior to machine learning classification, manual thresholds were found in a look
 
 ### [Finished Product](#finished-product)
 
-<center><b>Videos<b><center>
+<center><b>Videos<b></center>
 
 [![You Are My Sunshine](/files/EMG-controlled-hand/piano_playing.png)](https://drive.google.com/file/d/12-7LMKhfDyjvKwPP5Gmho7GiX6tN9srv/preview "You Are My Sunshine")
 <center><a href="https://drive.google.com/file/d/12-7LMKhfDyjvKwPP5Gmho7GiX6tN9srv/preview">Realtime</a></center>
