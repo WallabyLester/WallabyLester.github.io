@@ -4,7 +4,7 @@ layout: post
 Embedded Control, Machine Learning, EMG, Feedback Control, C, Python
 
 ## Overview
-The goal of this project was to design an EMG controlled hand exoskeleton that would aid stroke patients in playing the piano. Stroke patients are often paralyzed, often on one side of the body or in only the face, an arm, or a leg. The idea behind this project is to allow patients to play the piano using a paralyzed hand, controlled by their other hand (read more about a non-actuated version of this project - [GQ article](https://www.gq.com/story/pianist-joao-carlos-martins-bionic-gloves)). I designed a 3D printable hand exoskeleton (inspired by Alex Czech's Elysium exoskeleton) which can be controlled using four Myoware EMG sensors and an Arduino Uno. The sensors give readings of the electrical activity of the active muscle fibers during contraction which I used machine learning to classify into an index finger, middle finger, fourth finger, and pinky. See the code in my [GitHub repository](https://github.com/WallabyLester/EMG_Controlled_Hand_Exoskeleton).
+The goal of this project was to design an EMG controlled hand exoskeleton that would aid stroke patients in playing the piano. Stroke patients are often paralyzed, often on one side of the body or in only the face, an arm, or a leg. The idea behind this project is to allow patients to play the piano using a paralyzed hand, controlled by their other hand (read more about a non-actuated exoskeleton hand - [GQ article](https://www.gq.com/story/pianist-joao-carlos-martins-bionic-gloves)). I designed a 3D printable hand exoskeleton (inspired by Alex Czech's Elysium exoskeleton) which can be controlled using four Myoware EMG sensors and an Arduino Uno. The sensors give readings of the electrical activity of the active muscle fibers during contraction which I used machine learning to classify into an index finger, middle finger, fourth finger, and pinky. See the code in my [GitHub repository](https://github.com/WallabyLester/EMG_Controlled_Hand_Exoskeleton).
 
 ![Piano Playing](/files/EMG-controlled-hand/piano.gif)
 
@@ -46,4 +46,4 @@ With machine learning classification and position control I am able to play some
 
 For the full code see my [GitHub repository](https://github.com/WallabyLester/EMG_Controlled_Hand_Exoskeleton).
 
-See my next project [FlipIt Pancake Maker Robot](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
+See my next project [FlipIt Pancake Maker Robot](https://wallabylester.github.io/flip-it-pancake-maker-robot).

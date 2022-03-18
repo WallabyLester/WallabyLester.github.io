@@ -42,4 +42,4 @@ A 20 second wait time is used to ensure that the other side of the pancake is pe
 
 For the full code see my [GitHub repository](https://github.com/WallabyLester/FlipIt_Pancake_Maker_Robot).
 
-See my next project [Robotic Helping Hand](https://wallabylester.github.io/robotic-helping-hand) or return to [EMG Controlled Hand Exoskeleton](https://wallabylester.github.io/EMG-controlled-hand-exoskeleton).
+See my next project [Robotic Helping Hand](https://wallabylester.github.io/robotic-helping-hand) or return to [EMG Controlled Hand Exoskeleton](https://wallabylester.github.io/emg-controlled-hand-exoskeleton).
