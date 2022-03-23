@@ -38,9 +38,14 @@ Prior to machine learning classification, manual thresholds were found in a look
 [![You Are My Sunshine](/files/EMG-controlled-hand/piano_playing.png)](https://drive.google.com/file/d/12-7LMKhfDyjvKwPP5Gmho7GiX6tN9srv/preview "You Are My Sunshine")
 <p style="text-align:center;"><a href="https://drive.google.com/file/d/12-7LMKhfDyjvKwPP5Gmho7GiX6tN9srv/preview">Realtime</a></p>
 
+
+https://user-images.githubusercontent.com/90433630/159780318-80882b4f-1376-4e9f-bb36-f1b91bfefa62.mp4
+
+
 [![Sped Up](/files/EMG-controlled-hand/piano_playing.png)](https://drive.google.com/file/d/1dB134ACwVYKyepw-Udcao31TvG5_02tc/preview "Sped Up")
 <p style="text-align:center;"><a href="https://drive.google.com/file/d/1dB134ACwVYKyepw-Udcao31TvG5_02tc/preview">Sped up 2x to hear the song</a></p>
 
+https://user-images.githubusercontent.com/90433630/159775402-ffab0314-9bea-4c1e-8905-dc7f8d47f443.mp4
 
 With machine learning classification and position control I am able to play some of You Are My Sunshine, if a little slowly. The hand responds slowly due to the speed at which serial data is being set and classification occurs. These are both areas that can be improved upon. In addition, the Arduino can be replaced with a better controller which would help considerably in the frequency everything can be run. I also hoped to augment the design of the exoskeleton itself to make it more comfortable and add joints for the fingers to enable greater lateral movement.
 
