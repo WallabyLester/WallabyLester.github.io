@@ -8,7 +8,8 @@ The goal of this project was to command a Franka Emika Panda arm to pour pancake
 
 <!-- ![pancake making](/files/flip-it/pancake_maker.mp4) -->
 
-<video width="640" height="360" controls> <source src="/files/flip-it/pancake_maker.mp4" type="pancake_maker.mp4"> </video>
+<!-- <video width="640" height="360" controls> <source src="/files/flip-it/pancake_maker.mp4" type="pancake_maker.mp4"> </video> -->
+https://user-images.githubusercontent.com/90433630/159772722-4da62638-5df1-4d50-962e-93e3b998e53f.mp4
 
 ## Actions
 All of the main functionalities of the project are implemented through a single ROS service `make_pancakes`.
