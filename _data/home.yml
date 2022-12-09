@@ -12,6 +12,13 @@ navbar_entries:
     url: resume
 
 project_entries:
+  - title: Semi-Supervised Adaptation for Prosthesis Control
+    url: Semi-supervised-adaptation-of-upper-limb-myoelectric-pattern-recognition-prosthesis-control
+    desc: >
+        Prosthesis Control, Machine Learning, EMG, Virtual Games</br> 
+        Utilized the Coapt EMG sensor with virtual games to improve EMG-based classification.
+    image: ./files/EMG-controlled-hand/
+
   - title: EMG Controlled Hand Exoskeleton
     url: emg-controlled-hand-exoskeleton
     desc: >
