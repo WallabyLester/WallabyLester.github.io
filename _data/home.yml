@@ -13,7 +13,7 @@ navbar_entries:
 
 project_entries:
   - title: Semi-Supervised Adaptation for Prosthesis Control
-    url: emg-controlled-hand-exoskeleton
+    url: semi-supervised-learning
     desc: >
         Prosthesis Control, Machine Learning, EMG, Virtual Games</br> 
         Utilized the Coapt EMG sensor with virtual games to improve EMG-based classification.
