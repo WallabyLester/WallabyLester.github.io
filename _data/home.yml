@@ -17,7 +17,7 @@ project_entries:
     desc: >
         Prosthesis Control, Machine Learning, EMG, Virtual Games</br> 
         Utilized the Coapt EMG sensor with virtual games to improve EMG-based classification.
-    image: ./files/EMG-controlled-hand/
+    image: ./files/semi-supervised-learning/All_Subjects.png
 
   - title: EMG Controlled Hand Exoskeleton
     url: emg-controlled-hand-exoskeleton
