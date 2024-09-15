@@ -8,9 +8,6 @@ navbar_entries:
   - title: Contact
     url: contact
 
-  - title: Resume
-    url: resume
-
 project_entries:
   - title: Semi-Supervised Adaptation for Prosthesis Control
     url: semi-supervised-learning
